@@ -1,0 +1,81 @@
+/* #0a0c1b;
+#1c1938;
+#a95ddb ; 
+
+*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #35092e;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 350px;
+    margin: 125px auto;
+}
+
+.img {
+    background-image: url('../images/Airbnb-Beachfront-Greece.jpg');
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    padding: 50px;
+    color: white;
+    width: 60%;
+    font-size: 29px;
+    margin-left: 17px;
+}
+
+.bold {
+    color: #e00000;
+}
+
+.paragraph {
+    color: white;
+    padding: 11px;
+    width: 56%;
+    margin-left: 56px;
+    text-align: justify;
+    font-size: 13px;
+    margin-top: -20px;
+    line-height: 18px;
+}
+
+.items {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(3, 100px);
+    grid-column-gap: 20px;
+    text-align: center;
+    margin: 30px 52px;
+}
+
+.item {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 21px;
+}
+
+div>span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8f8589;
+}
